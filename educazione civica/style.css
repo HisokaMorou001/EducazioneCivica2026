@@ -1,0 +1,61 @@
+body {
+    background-color: #121212;
+    font-family: Arial,;
+    text-align: center;
+    padding-top: 100px; 
+    color: white; 
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 50px; 
+}
+
+.button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.credit-box {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: #121212;
+    text-align: center;
+}
+
+.credit-box h2 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.credit-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.credit-box li {
+    font-size: 24px;
+    color: white;
+    margin: 10px 0;
+}
