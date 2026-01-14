@@ -1,0 +1,184 @@
+Perfetto.  
+Prima di iniziare a generare **400 dialoghi**, devo dirti una cosa importante: un singolo messaggio non può contenerli tutti perché diventerebbe troppo lungo per essere inviato in un’unica risposta.  
+
+👉 **Ma posso generarli in blocchi ordinati e completi**, ad esempio:
+
+- **Run 1 (40 dialoghi)**  
+- **Run 2 (40 dialoghi)**  
+- …  
+- **Run 10 (40 dialoghi)**  
+
+Tu mi dici “continua” e io passo alla run successiva, fino a completare tutte le 10 run.
+
+---
+
+# 🎬 INIZIO ORA CON **RUN 1 – Evento: Scherzo pesante**
+Qualcuno ha riempito l’armadietto di un compagno con schiuma da barba.
+
+Ogni personaggio ha 4 dialoghi **coerenti con il ruolo assegnato in questa run**.  
+Per questa run, assegno i ruoli così (solo per Run 1):
+
+- **Bullo:** Davide  
+- **Aiutanti:** Marco, Sara, Elena, Francesca  
+- **Depistatori:** Giulia, Luca, Matteo  
+- **Neutrali:** Chiara, Andrea  
+
+---
+
+# 🧩 **RUN 1 – 40 DIALOGHI**
+
+---
+
+# ⭐ **1. Marco – Aiutante**
+### Dialogo 1 (intro)
+«Ehm… ciao. Io non parlo molto, ma stamattina ho visto qualcosa vicino agli armadietti… forse può esserti utile.»
+
+### Dialogo 2
+«Ho notato che qualcuno teneva in mano una bomboletta. Non ho visto il volto, ma era uno con la felpa sportiva.»
+
+### Dialogo 3
+«La persona sembrava avere molta fretta, come se non volesse essere vista. È scappata verso la palestra.»
+
+### Dialogo 4
+«Non so se serve, ma quella felpa… mi sembra di averla vista spesso addosso a Davide.»
+
+---
+
+# ⭐ **2. Giulia – Depistatrice**
+### Dialogo 1 (intro)
+«Oh, detective! Finalmente qualcuno che vuole fare chiarezza. Io so già chi è stato, fidati.»
+
+### Dialogo 2
+«Secondo me è stata Sara. Lei è sempre in giro presto, potrebbe averlo fatto senza problemi.»
+
+### Dialogo 3
+«E poi… chi altro potrebbe avere tempo per certe stupidaggini? Sicuro una persona super precisa come lei.»
+
+### Dialogo 4
+«Io ti dico: punta tutto su Sara. È ovvio, no?»
+
+---
+
+# ⭐ **3. Luca – Depistatore**
+### Dialogo 1 (intro)
+«Ehi! Io? Sì, ho visto qualcosa… credo. O forse no? Comunque posso aiutarti!»
+
+### Dialogo 2
+«Mi pare di aver visto Marco vicino agli armadietti. O forse era qualcun altro… però secondo me era lui.»
+
+### Dialogo 3
+«Aveva un’aria sospetta, tipo che guardava in giro come se nascondesse qualcosa.»
+
+### Dialogo 4
+«Sì sì, sono quasi sicuro che fosse Marco. Indaga su di lui.»
+
+---
+
+# ⭐ **4. Sara – Aiutante**
+### Dialogo 1 (intro)
+«Ciao. Ho analizzato un po’ la situazione… e credo di avere informazioni rilevanti.»
+
+### Dialogo 2
+«La quantità di schiuma usata era molta. Serviva qualcuno con forza e velocità.»
+
+### Dialogo 3
+«Ho trovato anche tracce di schiuma sul pavimento che portano verso il campo da basket.»
+
+### Dialogo 4
+«Davide si allena lì ogni mattina. Potrebbe non essere una coincidenza.»
+
+---
+
+# ⭐ **5. Davide – Bullo**
+### Dialogo 1 (intro)
+«Oh, ciao. Non so perché tutti fanno così un dramma… voglio dire, è solo schiuma.»
+
+### Dialogo 2
+«Io non c’entro niente, eh. Stavo facendo stretching, come sempre.»
+
+### Dialogo 3
+«Se vuoi un consiglio, chiedi a Luca. Lui è sempre in giro a fare scherzi.»
+
+### Dialogo 4
+«Comunque non capisco perché guardi me. Non ho tempo per queste stupidaggini.»
+
+---
+
+# ⭐ **6. Elena – Aiutante**
+### Dialogo 1 (intro)
+«Ciao. Mi dispiace per quello che è successo… posso dirti ciò che ho visto.»
+
+### Dialogo 2
+«Ho sentito qualcuno ridere vicino agli armadietti, una risata un po’… arrogante.»
+
+### Dialogo 3
+«Quando mi sono avvicinata, ho visto una figura con una borsa da palestra.»
+
+### Dialogo 4
+«E quella borsa… la porta sempre Davide.»
+
+---
+
+# ⭐ **7. Matteo – Depistatore**
+### Dialogo 1 (intro)
+«Detective, eh? Interessante. Io potrei avere informazioni… oppure no.»
+
+### Dialogo 2
+«Sai chi è sempre sospetto? Giulia. Troppa energia, troppo coinvolgimento.»
+
+### Dialogo 3
+«Secondo me è stata lei a fare lo scherzo. È il suo stile.»
+
+### Dialogo 4
+«Io punterei tutto su di lei. Ma fai tu.»
+
+---
+
+# ⭐ **8. Chiara – Neutrale**
+### Dialogo 1 (intro)
+«Oh, ciao! Io adoro i misteri, ma stavolta… non so proprio nulla.»
+
+### Dialogo 2
+«Stamattina ero in biblioteca, non ho visto nessuno.»
+
+### Dialogo 3
+«Mi piacerebbe aiutarti, ma non ho sentito né visto niente.»
+
+### Dialogo 4
+«Se scopro qualcosa te lo dico, ma per ora… zero.»
+
+---
+
+# ⭐ **9. Andrea – Neutrale**
+### Dialogo 1 (intro)
+«Ehi. Io stavo dormendo sul banco quando è successo tutto… quindi niente info.»
+
+### Dialogo 2
+«Non ho idea di chi fosse in corridoio stamattina.»
+
+### Dialogo 3
+«Non ho sentito rumori strani, ero mezzo addormentato.»
+
+### Dialogo 4
+«Mi spiace, ma non posso esserti utile.»
+
+---
+
+# ⭐ **10. Francesca – Aiutante**
+### Dialogo 1 (intro)
+«Detective! Ho visto una scena che sembra uscita da un film.»
+
+### Dialogo 2
+«Una persona ha aperto l’armadietto e ha spruzzato schiuma ovunque, come un effetto speciale.»
+
+### Dialogo 3
+«Aveva movimenti atletici, come se fosse abituato a muoversi veloce.»
+
+### Dialogo 4
+«E l’unico che si muove così… è Davide.»
+
+---
+
+# 🎉 **RUN 1 COMPLETA (40 dialoghi)**
+
+Dimmi **“continua”** e passo alla **RUN 2 (Furto)**.
