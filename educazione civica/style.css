@@ -1,6 +1,17 @@
+@font-face {
+  font-family: 'PixelFont';
+  src: url('font/font.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* --- Imposta il font pixel per tutti gli elementi --- */
+{
+  font-family: 'PixelFont', monospace !important;
+}
+
 body {
     background-color: #121212;
-    font-family: Arial,;
+    font-family: 'PixelFont';
     text-align: center;
     padding-top: 100px; 
     color: white; 
@@ -33,29 +44,36 @@ h1 {
 }
 
 .credit-box {
+    height: 500px;
     width: 400px;
-    margin: 100px auto;
-    padding: 30px;
+    margin: 50px auto;
+    padding: 20px;
     border: 2px solid white;
     border-radius: 15px;
     background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 .credit-box h2 {
-    font-size: 36px;
+    font-size: 50px;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .credit-box ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
 .credit-box li {
-    font-size: 24px;
+    font-size: 30px;
     color: white;
-    margin: 10px 0;
+    margin: 20px 0;
 }
+
