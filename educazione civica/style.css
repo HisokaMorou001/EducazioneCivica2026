@@ -1,26 +1,26 @@
 @font-face {
-  font-family: 'PixelFont';
-  src: url('font/font.ttf') format('truetype');
-  font-display: swap;
+    font-family: 'PixelFont';
+    src: url('font/font.ttf') format('truetype');
+    font-display: swap;
 }
 
-/* --- Imposta il font pixel per tutti gli elementi --- */
 {
-  font-family: 'PixelFont', monospace !important;
+    font-family: 'PixelFont', monospace !important;
 }
 
 body {
     background-color: #121212;
     font-family: 'PixelFont';
     text-align: center;
-    padding-top: 100px; 
-    color: white; 
+    color: white;
+    min-height: 100vh;
+    margin: 0;
 }
 
 h1 {
     color: white;
     font-size: 48px;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 .button {
@@ -32,10 +32,10 @@ h1 {
     color: white;
     background-color: black;
     border: 2px solid white;
-    border-radius: 10px
+    border-radius: 10px;
     text-decoration: none;
     cursor: pointer;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
 }
 
 .button:hover {
@@ -50,7 +50,7 @@ h1 {
     padding: 20px;
     border: 2px solid white;
     border-radius: 15px;
-    background-color: #121212;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,5 +78,29 @@ h1 {
 }
 
 body.menu-page {
-  background-image: url('immagini/0114.gif');
+    background-image: url('immagini/0114.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+body.overlay {
+    position: relative;
+}
+
+body.overlay::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 0;
+}
+
+h1,
+.button,
+.credit-box {
+    position: relative;
+    z-index: 1;
 }
