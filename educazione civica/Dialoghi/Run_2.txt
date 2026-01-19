@@ -1,171 +1,61 @@
-Perfetto, procedo con **RUN 2 – Evento: Furto**.  
-Qualcuno ha rubato un portafoglio dalla classe.
+RUN 2 – 40 DIALOGHI (nomi invertiti)
 
-Per questa run assegno i ruoli così (solo per Run 2):
+1. Akari Yukimura – Aiutante
+Dialogo 1: «Ehi detective, stavolta non scherzo: ho visto qualcosa di strano quando il portafoglio è sparito.»
+Dialogo 2: «C’era qualcuno che frugava vicino ai banchi prima che entrasse il prof. Non era un caso.»
+Dialogo 3: «La persona si muoveva con calma, come se sapesse esattamente cosa cercare.»
+Dialogo 4: «E quel modo di muoversi… mi ricorda molto Karma Akabane.»
 
-- **Bullo:** Matteo  
-- **Aiutanti:** Giulia, Elena, Andrea, Marco  
-- **Depistatori:** Luca, Davide, Francesca  
-- **Neutrali:** Sara, Chiara  
+2. Yuma Isogai – Depistatore
+Dialogo 1: «Oh, il portafoglio? Sì sì, ho visto tutto… credo.»
+Dialogo 2: «Secondo me è stata Manami Okuda. Lei arriva sempre presto, potrebbe averlo preso senza farsi notare.»
+Dialogo 3: «E poi è così tranquilla… troppo tranquilla. Nasconde qualcosa.»
+Dialogo 4: «Io ti dico: controlla Manami. Fidati.»
 
-E ora partiamo con i **40 dialoghi della Run 2**.
+3. Chmegu Kataoka – Neutrale
+Dialogo 1: «Ciao… io non ho idea di cosa sia successo. Stavo studiando in biblioteca.»
+Dialogo 2: «Non ero nemmeno in classe quando è sparito il portafoglio.»
+Dialogo 3: «Non ho visto nessuno entrare o uscire.»
+Dialogo 4: «Mi spiace, ma non posso aiutarti.»
 
----
+4. Ryoma Terasaka – Depistatore
+Dialogo 1: «Oh, il detective è tornato. Bene, ho un sospetto fortissimo.»
+Dialogo 2: «Secondo me è stato Nagisa Shiota. Lui sembra sempre mezzo addormentato, ma è furbo.»
+Dialogo 3: «L’ho visto vicino allo zaino della vittima ieri. Coincidenza? Non credo.»
+Dialogo 4: «Io punterei tutto su di lui.»
 
-# 🎬 **RUN 2 – Evento: Furto del portafoglio**
+5. Manami Okuda – Aiutante
+Dialogo 1: «Ciao. Ho notato alcuni dettagli che potrebbero esserti utili.»
+Dialogo 2: «Chi ha preso il portafoglio ha aperto lo zaino con molta delicatezza, senza fare rumore.»
+Dialogo 3: «Ho visto una persona allontanarsi subito dopo, con le mani in tasca come per nascondere qualcosa.»
+Dialogo 4: «Era Karma Akabane. Lo riconoscerei anche da lontano.»
 
----
+6. Karma Akabane – Bullo
+Dialogo 1: «Oh, il portafoglio? Che storia noiosa. Non capisco perché tutti siano così agitati.»
+Dialogo 2: «Io non ho visto niente, stavo parlando con Yuma fuori dall’aula.»
+Dialogo 3: «Se vuoi un sospetto, direi Akari. È sempre in mezzo a tutto.»
+Dialogo 4: «Comunque non guardare me. Non ho motivo di prendere un portafoglio.»
 
-# ⭐ **1. Giulia – Aiutante**
-### Dialogo 1 (intro)
-«Ehi detective, stavolta non scherzo: ho visto qualcosa di strano quando il portafoglio è sparito.»
+7. Hinata Okano – Neutrale
+Dialogo 1: «Ehi! Io adoro i misteri, ma questa volta… zero informazioni.»
+Dialogo 2: «Stavo chiacchierando con una prof quando è successo tutto.»
+Dialogo 3: «Non ho visto nessuno avvicinarsi agli zaini.»
+Dialogo 4: «Mi spiace, non posso esserti utile.»
 
-### Dialogo 2
-«C’era qualcuno che frugava vicino ai banchi prima che entrasse il prof. Non era un caso.»
+8. Nagisa Shiota – Aiutante
+Dialogo 1: «Oh… ciao. Non sono molto attento di solito, ma stavolta ho notato qualcosa.»
+Dialogo 2: «Ho visto qualcuno chinarsi vicino allo zaino della vittima.»
+Dialogo 3: «Si muoveva con una sicurezza strana, come se sapesse esattamente cosa prendere.»
+Dialogo 4: «E quella postura… era proprio Karma Akabane.»
 
-### Dialogo 3
-«La persona si muoveva con calma, come se sapesse esattamente cosa cercare.»
+9. Tomohito Sugino – Aiutante
+Dialogo 1: «Ehm… ciao. Non so se quello che ho visto è importante, ma te lo dico.»
+Dialogo 2: «Ho sentito un rumore leggero, come una zip che si apre.»
+Dialogo 3: «Quando mi sono girato, ho visto una figura che si allontanava velocemente.»
+Dialogo 4: «Mi sembrava Karma Akabane. Anche se non l’ho visto in faccia, il modo di camminare era il suo.»
 
-### Dialogo 4
-«E quel modo di muoversi… mi ricorda molto Matteo.»
-
----
-
-# ⭐ **2. Luca – Depistatore**
-### Dialogo 1 (intro)
-«Oh, il portafoglio? Sì sì, ho visto tutto… credo.»
-
-### Dialogo 2
-«Secondo me è stata Elena. Lei arriva sempre presto, potrebbe averlo preso senza farsi notare.»
-
-### Dialogo 3
-«E poi è così tranquilla… troppo tranquilla. Nasconde qualcosa.»
-
-### Dialogo 4
-«Io ti dico: controlla Elena. Fidati.»
-
----
-
-# ⭐ **3. Sara – Neutrale**
-### Dialogo 1 (intro)
-«Ciao… io non ho idea di cosa sia successo. Stavo studiando in biblioteca.»
-
-### Dialogo 2
-«Non ero nemmeno in classe quando è sparito il portafoglio.»
-
-### Dialogo 3
-«Non ho visto nessuno entrare o uscire.»
-
-### Dialogo 4
-«Mi spiace, ma non posso aiutarti.»
-
----
-
-# ⭐ **4. Davide – Depistatore**
-### Dialogo 1 (intro)
-«Oh, il detective è tornato. Bene, ho un sospetto fortissimo.»
-
-### Dialogo 2
-«Secondo me è stato Andrea. Lui sembra sempre mezzo addormentato, ma è furbo.»
-
-### Dialogo 3
-«L’ho visto vicino allo zaino della vittima ieri. Coincidenza? Non credo.»
-
-### Dialogo 4
-«Io punterei tutto su di lui.»
-
----
-
-# ⭐ **5. Elena – Aiutante**
-### Dialogo 1 (intro)
-«Ciao. Ho notato alcuni dettagli che potrebbero esserti utili.»
-
-### Dialogo 2
-«Chi ha preso il portafoglio ha aperto lo zaino con molta delicatezza, senza fare rumore.»
-
-### Dialogo 3
-«Ho visto una persona allontanarsi subito dopo, con le mani in tasca come per nascondere qualcosa.»
-
-### Dialogo 4
-«Era Matteo. Lo riconoscerei anche da lontano.»
-
----
-
-# ⭐ **6. Matteo – Bullo**
-### Dialogo 1 (intro)
-«Oh, il portafoglio? Che storia noiosa. Non capisco perché tutti siano così agitati.»
-
-### Dialogo 2
-«Io non ho visto niente, stavo parlando con Luca fuori dall’aula.»
-
-### Dialogo 3
-«Se vuoi un sospetto, direi Giulia. È sempre in mezzo a tutto.»
-
-### Dialogo 4
-«Comunque non guardare me. Non ho motivo di prendere un portafoglio.»
-
----
-
-# ⭐ **7. Chiara – Neutrale**
-### Dialogo 1 (intro)
-«Ehi! Io adoro i misteri, ma questa volta… zero informazioni.»
-
-### Dialogo 2
-«Stavo chiacchierando con una prof quando è successo tutto.»
-
-### Dialogo 3
-«Non ho visto nessuno avvicinarsi agli zaini.»
-
-### Dialogo 4
-«Mi spiace, non posso esserti utile.»
-
----
-
-# ⭐ **8. Andrea – Aiutante**
-### Dialogo 1 (intro)
-«Oh… ciao. Non sono molto attento di solito, ma stavolta ho notato qualcosa.»
-
-### Dialogo 2
-«Ho visto qualcuno chinarsi vicino allo zaino della vittima.»
-
-### Dialogo 3
-«Si muoveva con una sicurezza strana, come se sapesse esattamente cosa prendere.»
-
-### Dialogo 4
-«E quella postura… era proprio Matteo.»
-
----
-
-# ⭐ **9. Marco – Aiutante**
-### Dialogo 1 (intro)
-«Ehm… ciao. Non so se quello che ho visto è importante, ma te lo dico.»
-
-### Dialogo 2
-«Ho sentito un rumore leggero, come una zip che si apre.»
-
-### Dialogo 3
-«Quando mi sono girato, ho visto una figura che si allontanava velocemente.»
-
-### Dialogo 4
-«Mi sembrava Matteo. Anche se non l’ho visto in faccia, il modo di camminare era il suo.»
-
----
-
-# ⭐ **10. Francesca – Depistatrice**
-### Dialogo 1 (intro)
-«Detective! Ho una teoria incredibile, ascolta.»
-
-### Dialogo 2
-«Secondo me è stata Sara. Lei è sempre così silenziosa… perfetta per un furto.»
-
-### Dialogo 3
-«E poi è super organizzata. Avrebbe potuto farlo senza lasciare tracce.»
-
-### Dialogo 4
-«Io dico che è lei. Sicurissimo.»
-
----
-
-# 🎉 **RUN 2 COMPLETA (40 dialoghi)**
-
-Dimmi **“continua”** e passo alla **RUN 3 (Messaggio offensivo)**.
+10. Yukito Kanzaki – Depistatrice
+Dialogo 1: «Detective! Ho una teoria incredibile, ascolta.»
+Dialogo 2: «Secondo me è stata Chmegu Kataoka. Lei è sempre così silenziosa… perfetta per un furto.»
+Dialogo 3: «E poi è super organizzata. Avrebbe potuto farlo senza lasciare tracce.»
+Dialogo 4: «Io dico che è lei. Sicurissimo.»
