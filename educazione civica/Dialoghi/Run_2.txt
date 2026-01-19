@@ -12,7 +12,7 @@ Dialogo 2: «Secondo me è stata Manami Okuda. Lei arriva sempre presto, potrebb
 Dialogo 3: «E poi è così tranquilla… troppo tranquilla. Nasconde qualcosa.»
 Dialogo 4: «Io ti dico: controlla Manami. Fidati.»
 
-3. Chmegu Kataoka – Neutrale
+3. Megu Kataoka – Neutrale
 Dialogo 1: «Ciao… io non ho idea di cosa sia successo. Stavo studiando in biblioteca.»
 Dialogo 2: «Non ero nemmeno in classe quando è sparito il portafoglio.»
 Dialogo 3: «Non ho visto nessuno entrare o uscire.»
