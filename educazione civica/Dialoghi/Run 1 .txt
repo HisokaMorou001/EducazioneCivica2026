@@ -48,7 +48,7 @@ Dialogo 2: «Stamattina ero in biblioteca, non ho visto nessuno.»
 Dialogo 3: «Mi piacerebbe aiutarti, ma non ho sentito né visto niente.»
 Dialogo 4: «Se scopro qualcosa te lo dico, ma per ora… zero.»
 
-9. Chmegu Kataoka – Neutrale
+9. Megu Kataoka – Neutrale
 Dialogo 1: «Ehi. Io stavo dormendo sul banco quando è successo tutto… quindi niente info.»
 Dialogo 2: «Non ho idea di chi fosse in corridoio stamattina.»
 Dialogo 3: «Non ho sentito rumori strani, ero mezzo addormentato.»
