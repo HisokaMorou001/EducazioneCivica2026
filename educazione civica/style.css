@@ -4,10 +4,6 @@
     font-display: swap;
 }
 
-{
-    font-family: 'PixelFont', monospace !important;
-}
-
 body {
     background-color: #121212;
     font-family: 'PixelFont';
@@ -18,84 +14,157 @@ body {
 }
 
 h1 {
-    color: white;
-    font-size: 48px;
+    color: rgb(227, 43, 43);
+    font-size: 120px;
     margin-bottom: 50px;
+    position: absolute;
+    top: 250px;
+    text-shadow:
+    0.20vw 0.20vw 0 #000,
+    0.42vw 0.42vw 0 #000;
 }
 
 .button {
     display: block;
-    width: 200px;
-    margin: 20px auto;
-    padding: 15px;
-    font-size: 20px;
+    position: absolute;
+
+    top: 270px;           
+    width: 20%;
+    height: auto;
+
+    margin: 10px auto;
+    padding: 0;
+
+    font-size: 80px;
     color: white;
-    background-color: black;
-    border: 2px solid white;
-    border-radius: 10px;
+    background: none;    
+    border: none;       
+    border-radius: 0;
+
+    text-shadow:
+    0.20vw 0.20vw 0 #000,
+    0.42vw 0.42vw 0 #000;
+
     text-decoration: none;
     cursor: pointer;
-    transition: all 0.3s ease;
+
+    transition: color 0.3s ease;
 }
 
 .button:hover {
-    background-color: white;
-    color: black;
+    color: rgb(227, 43, 43);
+}
+
+.top-buttons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.back-btn {
+    position:absolute;
+    top:800px;
+    left: 870px;
+    width: 60px;        
+    height: 60px;
+    z-index: 999;
+    margin-right: 20px;   
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.github-btn {
+    position:absolute;
+    top:795px;
+    left: 980px;
+    width: 70px;    
+    height: 70px;
+    z-index: 999;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* Hover per entrambi */
+.back-btn:hover,
+.github-btn:hover {
+    transform: scale(1.1);
 }
 
 .credit-box {
-    height: 500px;
-    width: 400px;
+    background-color: yellow;
+    height: 800px;
+    width: 700px;
     margin: 50px auto;
     padding: 20px;
-    border: 2px solid white;
-    border-radius: 15px;
-    background-color: transparent;
+    border: 10px solid black;
+    border-radius: 50px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    color: black;
 }
 
 .credit-box h2 {
-    font-size: 50px;
-    color: white;
+    position: absolute;
+    top: -50px;
+    font-size: 120px;
+    color: rgb(227, 43, 43);
     margin-bottom: 40px;
+    text-shadow:
+    0.20vw 0.20vw 0 #000,
+    0.42vw 0.42vw 0 #000;
 }
 
 .credit-box ul {
+    position: absolute;
+    top: 200px;
     list-style: none;
     padding: 0;
     margin: 0;
     width: 100%;
+    text-shadow:
+    0.20vw 0.20vw 0 #000,
+    0.42vw 0.42vw 0 #000;
 }
 
 .credit-box li {
-    font-size: 30px;
-    color: white;
+    font-size: 80px;
+    color: rgb(227, 43, 43);
     margin: 20px 0;
 }
 
-body.menu-page {
-    background-image: url('immagini/0114.gif');
-    background-size: cover;
-    background-position: center;
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
-body.overlay {
+.menu-page {
     position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
 }
 
-body.overlay::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.75);
-    z-index: 0;
+.background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120vw;
+    height: 120vh;
+
+    background-image: url("immagini/sfondo.png");
+    background-size: contain;     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+
+    transform: translate(-50%, -50%);
+    z-index: -1;
 }
 
 h1,
@@ -104,3 +173,33 @@ h1,
     position: relative;
     z-index: 1;
 }
+.korosensei {
+    position: absolute;
+    top: 200px;
+    left: 950px;
+    width: 1500px;
+    height: 1500px;
+
+    background:
+        url("immagini/personaggi/Korosensei.png") center / contain no-repeat;
+
+    z-index: 1;
+}
+
+#intro-scene {
+    position: absolute;
+    top: 75vh;
+    left: 4.9vw;
+
+    font-size: 3.13vw;
+    color: black;
+    text-shadow: 0.10vw 0.10vw 0 #fff;
+
+    z-index: 100;
+
+    white-space: pre-line;
+    text-align: left;       
+    width: 90vw;             
+}
+
+
