@@ -43,10 +43,8 @@ function scriviFrase(elemento, testo, velocita, callback) {
 // --- SEQUENZA FRASI ---
 function scriviSequenza(frasi, index = 0) {
     if (index >= frasi.length) {
-        // finita intro
-        setTimeout(() => {
-            window.location.href = "personaggi.html";
-        }, 1000);
+        // finita intro → cambio immediato
+        window.location.href = "personaggi.html";
         return;
     }
 

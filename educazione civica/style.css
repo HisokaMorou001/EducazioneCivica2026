@@ -238,15 +238,16 @@ h1,
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 5px;
     width: 100%;
     max-width: 100%;
+    column-gap: 0px;   /* distanza laterale */
+    row-gap: 70px;     /* distanza verticale */
 }
 
 .personaggio-card {
     position: relative;
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 380px;
     display: flex;
     align-items: center;
     justify-content: center;
