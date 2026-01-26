@@ -61,7 +61,7 @@ function avviaScene() {
   const frasi = [
     `Perfetto, hai parlato con tutti i tuoi compagni!`,
     `A tal proposito...`,
-    `Chi tra i vari indagati secondo te è il bullo?`
+    `Chi tra i vari indagati secondo te e' il bullo?`
   ];
   apriTransizione(() => {
     scriviSequenza(frasi);

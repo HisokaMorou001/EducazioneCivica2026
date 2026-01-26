@@ -80,7 +80,7 @@ h1 {
 .back-btn {
     position:absolute;
     top:800px;
-    left: 870px;
+    left: 930px;
     width: 60px;
     height: 60px;
     z-index: 999;
@@ -92,7 +92,7 @@ h1 {
 .github-btn {
     position:absolute;
     top:795px;
-    left: 980px;
+    left: 1030px;
     width: 70px;
     height: 70px;
     z-index: 999;
@@ -100,9 +100,22 @@ h1 {
     transition: transform 0.3s ease;
 }
 
+.youtube-btn {
+    position:absolute;
+    top:780px;
+    left: 790px;
+    width: 100px;
+    height: 100px;
+    z-index: 999;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
 /* Hover per entrambi */
 .back-btn:hover,
-.github-btn:hover {
+.github-btn:hover,
+.youtube-btn:hover {
     transform: scale(1.1);
 }
 
@@ -436,18 +449,17 @@ h1,
 
 .continua-btn {
   position: absolute;
-  bottom: 200px;
+  bottom: 110px;
   right: -50px;
 
   height: 90px;
-  width: 350px;
+  width: 380px;
   margin-top: 20px;
   padding: 8px 16px;
 
   font-family: 'PixelFont';
   font-size: 3.13vw;
   text-transform: uppercase;
-  letter-spacing: 2px;
 
   background: #ffffff;
   color: #000000;

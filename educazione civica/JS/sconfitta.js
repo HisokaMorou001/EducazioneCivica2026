@@ -118,7 +118,7 @@ function avviaScenaSconfitta() {
   const frasi = [
     `Hmm... peccato.`,
     `Non sei riuscito a trovare il bullo.`,
-    `La scuola è ancora preoccupata. Forse...`,
+    `La scuola e' ancora preoccupata. Forse...`,
     ` Che ne dici... Vuoi riprovare per cambiare la storia?`
   ];
 
