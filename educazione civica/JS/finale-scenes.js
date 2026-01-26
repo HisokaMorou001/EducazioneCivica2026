@@ -1,29 +1,18 @@
-const introScene = document.getElementById('intro-scene');
+const finaleScene = document.getElementById('finale-scene');
 
-// --- RIDIMENSIONAMENTO BACKGROUND ---
 function resizeBackground() {
   const body = document.body;
   const windowAspectRatio = window.innerWidth / window.innerHeight;
   const imageAspectRatio = 16 / 9;
-
-  body.style.backgroundSize =
-    windowAspectRatio > imageAspectRatio ? "auto 100%" : "100% auto";
-
+  body.style.backgroundSize = windowAspectRatio > imageAspectRatio ? "auto 100%" : "100% auto";
   body.style.backgroundPosition = "center";
   body.style.backgroundRepeat = "no-repeat";
   body.style.backgroundAttachment = "fixed";
 }
 
-// --- RESET TESTO ---
-function resetSchermo() {
-  introScene.innerHTML = "";
-}
-
-// --- SCRITTURA STILE POKÉMON ---
 function scriviFrase(elemento, testo, velocita, callback) {
   let i = 0;
   elemento.innerHTML = "";
-
   function type() {
     if (i < testo.length) {
       elemento.innerHTML += testo.charAt(i);
@@ -38,44 +27,47 @@ function scriviFrase(elemento, testo, velocita, callback) {
   type();
 }
 
-// --- SEQUENZA FRASI ---
 function scriviSequenza(frasi, index = 0) {
   if (index >= frasi.length) {
-    // finita intro - mostra transizione e vai alla pagina personaggi
     setTimeout(() => {
       mostraTransizione(() => {
-        window.location.href = "personaggi.html";
+        // azzera la memoria dei personaggi cliccati
+        localStorage.removeItem("personaggiCliccati");
+        window.location.href = "bullo-scelta.html";
       });
     }, 1000);
     return;
   }
-
-  scriviFrase(introScene, frasi[index], 30, () => {
+  scriviFrase(finaleScene, frasi[index], 30, () => {
     scriviSequenza(frasi, index + 1);
   });
 }
 
-// --- AVVIO SCENA ---
 function avviaScene() {
   document.body.style.backgroundImage = "url('immagini/intro.png')";
   resizeBackground();
+  // Stile identico a intro-scenes
+  finaleScene.style.position = 'absolute';
+  finaleScene.style.top = '72vh';
+  finaleScene.style.left = '4.9vw';
+  finaleScene.style.fontSize = '3.13vw';
+  finaleScene.style.color = 'black';
+  finaleScene.style.textShadow = '0.10vw 0.10vw 0 #fff';
+  finaleScene.style.zIndex = '100';
+  finaleScene.style.whiteSpace = 'pre-line';
+  finaleScene.style.textAlign = 'left';
+  finaleScene.style.width = '90vw';
 
-
-
-  const numeroGiocatore = 1; // Sostituisci con la logica corretta se serve
   const frasi = [
-    `Ciao giocatore numero ${numeroGiocatore}! Oggi ho bisogno del tuo aiuto per una missione speciale.`,
-    `Negli ultimi giorni qualcuno sta creando problemi nella scuola: qualcuno ha spruzzato schiuma negli armadietti, creando caos tra gli studenti.`,
-    `Ho individuato 10 studenti della classe: ognuno potrebbe sapere qualcosa… o cercare di proteggere il colpevole.`,
-    `Parla con tutti, ascolta ogni dettaglio e usa il tuo intuito per scoprire chi e' il vero colpevole prima che faccia un altro scherzo.`
+    `Perfetto, hai parlato con tutti i tuoi compagni!`,
+    `A tal proposito...`,
+    `Chi tra i vari indagati secondo te è il bullo?`
   ];
-
   apriTransizione(() => {
     scriviSequenza(frasi);
   });
 }
 
-// --- EVENTI ---
 window.addEventListener("load", avviaScene);
 window.addEventListener("resize", resizeBackground);
 window.addEventListener("orientationchange", () => {
