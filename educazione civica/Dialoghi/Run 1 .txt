@@ -4,7 +4,7 @@ RUN 1 – 40 DIALOGHI (nomi invertiti)
 Dialogo 1: «Ehm… ciao. Io non parlo molto, ma stamattina ho visto qualcosa vicino agli armadietti… forse può esserti utile.»
 Dialogo 2: «Ho notato che qualcuno teneva in mano una bomboletta. Non ho visto il volto, ma era uno con la felpa sportiva.»
 Dialogo 3: «La persona sembrava avere molta fretta, come se non volesse essere vista. È scappata verso la palestra.»
-Dialogo 4: «Non so se serve, ma quella felpa… mi sembra di averla vista spesso addosso a Manami Okuda.»
+Dialogo 4: «Non so se serve, ma ho l'impressione di aver visto quella felpa prima… probabilmente è di qualcuno che si allena.»
 
 2. Akari Yukimura – Depistatrice
 Dialogo 1: «Oh, detective! Finalmente qualcuno che vuole fare chiarezza. Io so già chi è stato, fidati.»
@@ -22,7 +22,7 @@ Dialogo 4: «Sì sì, sono quasi sicura che fosse Nagisa. Indaga su di lui.»
 Dialogo 1: «Ciao. Ho analizzato un po’ la situazione… e credo di avere informazioni rilevanti.»
 Dialogo 2: «La quantità di schiuma usata era molta. Serviva qualcuno con forza e velocità.»
 Dialogo 3: «Ho trovato anche tracce di schiuma sul pavimento che portano verso il campo da basket.»
-Dialogo 4: «Manami Okuda si allena lì ogni mattina. Potrebbe non essere una coincidenza.»
+Dialogo 4: «Chiunque frequenti quella zona avrebbe potuto farlo. Probabilmente è qualcuno che conosce bene la scuola.»
 
 5. Manami Okuda – Bullo
 Dialogo 1: «Oh, ciao. Non so perché tutti fanno così un dramma… voglio dire, è solo schiuma.»
@@ -33,8 +33,8 @@ Dialogo 4: «Comunque non capisco perché guardi me. Non ho tempo per queste stu
 6. Karma Akabane – Aiutante
 Dialogo 1: «Ciao. Mi dispiace per quello che è successo… posso dirti ciò che ho visto.»
 Dialogo 2: «Ho sentito qualcuno ridere vicino agli armadietti, una risata un po’… arrogante.»
-Dialogo 3: «Quando mi sono avvicinata, ho visto una figura con una borsa da palestra.»
-Dialogo 4: «E quella borsa… la porta sempre Manami Okuda.»
+Dialogo 3: «Quando mi sono avvicinata, ho visto una figura con una borsa da palestra che correva via.»
+Dialogo 4: «Non ho potuto vedere bene chi fosse, ma sembrava qualcuno dell'atletica o della palestra.»
 
 7. Yuma Isogai – Depistatore
 Dialogo 1: «Detective, eh? Interessante. Io potrei avere informazioni… oppure no.»
@@ -57,5 +57,5 @@ Dialogo 4: «Mi spiace, ma non posso esserti utile.»
 10. Hinata Okano – Aiutante
 Dialogo 1: «Detective! Ho visto una scena che sembra uscita da un film.»
 Dialogo 2: «Una persona ha aperto l’armadietto e ha spruzzato schiuma ovunque, come un effetto speciale.»
-Dialogo 3: «Aveva movimenti atletici, come se fosse abituato a muoversi veloce.»
-Dialogo 4: «E l’unico che si muove così… è Manami Okuda.»
+Dialogo 3: «Aveva movimenti molto agili e sicuri, come se fosse un atleta.»
+Dialogo 4: «Non sono riuscita a vederla bene, ma era sicuramente qualcuno che si allena regolarmente.»

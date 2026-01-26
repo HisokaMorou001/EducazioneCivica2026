@@ -43,9 +43,11 @@ function scriviFrase(elemento, testo, velocita, callback) {
 // --- SEQUENZA FRASI ---
 function scriviSequenza(frasi, index = 0) {
     if (index >= frasi.length) {
-        // finita intro
+        // finita intro - mostra transizione e vai a personaggi
         setTimeout(() => {
-            window.location.href = "personaggi.html";
+            mostraTransizione(() => {
+                window.location.href = "personaggi.html";
+            });
         }, 1000);
         return;
     }
@@ -69,7 +71,10 @@ function avviaScene() {
         `Parla con loro e cerca di capire chi sia il colpevole.`
     ];
 
-    scriviSequenza(frasi);
+    // Mostra l'apertura della transizione, poi inizia il dialogo
+    apriTransizione(() => {
+        scriviSequenza(frasi);
+    });
 }
 
 // --- EVENTI ---

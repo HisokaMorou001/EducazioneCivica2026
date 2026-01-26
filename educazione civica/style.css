@@ -4,6 +4,13 @@
     font-display: swap;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
 body {
     background-color: #121212;
     font-family: 'PixelFont';
@@ -20,38 +27,48 @@ h1 {
     position: absolute;
     top: 250px;
     text-shadow:
-    0.20vw 0.20vw 0 #000,
-    0.42vw 0.42vw 0 #000;
+        0.20vw 0.20vw 0 #000,
+        0.42vw 0.42vw 0 #000;
 }
 
 .button {
     display: block;
     position: absolute;
-
-    top: 270px;           
+    top: 270px;
     width: 20%;
     height: auto;
-
     margin: 10px auto;
     padding: 0;
-
     font-size: 80px;
     color: white;
-    background: none;    
-    border: none;       
+    background: none;
+    border: none;
     border-radius: 0;
-
     text-shadow:
-    0.20vw 0.20vw 0 #000,
-    0.42vw 0.42vw 0 #000;
-
+        0.20vw 0.20vw 0 #000,
+        0.42vw 0.42vw 0 #000;
     text-decoration: none;
     cursor: pointer;
-
     transition: color 0.3s ease;
 }
 
 .button:hover {
+    color: rgb(227, 43, 43);
+}
+
+/* Bottoni finali della schermata "Vuoi rifare la storia?" */
+.final-btn {
+    font-size: 60px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-shadow: 0.20vw 0.20vw 0 #000, 0.42vw 0.42vw 0 #000;
+    transition: color 0.3s ease;
+    font-family: 'PixelFont';
+}
+
+.final-btn:hover {
     color: rgb(227, 43, 43);
 }
 
@@ -64,10 +81,10 @@ h1 {
     position:absolute;
     top:800px;
     left: 870px;
-    width: 60px;        
+    width: 60px;
     height: 60px;
     z-index: 999;
-    margin-right: 20px;   
+    margin-right: 20px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -76,7 +93,7 @@ h1 {
     position:absolute;
     top:795px;
     left: 980px;
-    width: 70px;    
+    width: 70px;
     height: 70px;
     z-index: 999;
     cursor: pointer;
@@ -97,13 +114,11 @@ h1 {
     padding: 20px;
     border: 10px solid black;
     border-radius: 50px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-
     color: black;
 }
 
@@ -114,8 +129,8 @@ h1 {
     color: rgb(227, 43, 43);
     margin-bottom: 40px;
     text-shadow:
-    0.20vw 0.20vw 0 #000,
-    0.42vw 0.42vw 0 #000;
+        0.20vw 0.20vw 0 #000,
+        0.42vw 0.42vw 0 #000;
 }
 
 .credit-box ul {
@@ -126,21 +141,14 @@ h1 {
     margin: 0;
     width: 100%;
     text-shadow:
-    0.20vw 0.20vw 0 #000,
-    0.42vw 0.42vw 0 #000;
+        0.20vw 0.20vw 0 #000,
+        0.42vw 0.42vw 0 #000;
 }
 
 .credit-box li {
     font-size: 80px;
     color: rgb(227, 43, 43);
     margin: 20px 0;
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .menu-page {
@@ -156,13 +164,11 @@ html, body {
     left: 50%;
     width: 120vw;
     height: 120vh;
-
     background-image: url("immagini/sfondo.png");
-    background-size: contain;     
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
-
     transform: translate(-50%, -50%);
     z-index: -1;
 }
@@ -173,34 +179,39 @@ h1,
     position: relative;
     z-index: 1;
 }
+
 .korosensei {
     position: absolute;
     top: 200px;
     left: 950px;
     width: 1500px;
     height: 1500px;
-
     background:
         url("immagini/personaggi/Korosensei.png") center / contain no-repeat;
-
     z-index: 1;
 }
 
-#intro-scene {
+#intro-scene,
+#vittoria-scene,
+#sconfitta-scene {
     position: absolute;
     top: 75vh;
     left: 4.9vw;
-
     font-size: 3.13vw;
     color: black;
     text-shadow: 0.10vw 0.10vw 0 #fff;
-
     z-index: 100;
-
     white-space: pre-line;
-    text-align: left;       
-    width: 90vw;             
+    text-align: left;
+    width: 90vw;
 }
+
+/* Se il testo non si vede, prova anche così:
+#vittoria-scene {
+    color: white;
+    text-shadow: 0.10vw 0.10vw 0 #000;
+}
+*/
 
 .personaggi-page {
     background: linear-gradient(135deg, #050505 0%, #0a0a0a 50%, #050505 100%);
@@ -218,7 +229,7 @@ h1,
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
     pointer-events: none;
     z-index: 0;
 }
@@ -249,14 +260,13 @@ h1,
 }
 
 .personaggi-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
     align-items: center;
     width: 100%;
     max-width: 100%;
-    column-gap: 0px;
-    row-gap: 70px;
+    gap: 40px 10px;
 }
 
 .personaggio-card {
@@ -267,8 +277,32 @@ h1,
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
     overflow: visible;
+    opacity: 0;
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.personaggio-card:nth-child(1) { animation-delay: 0.05s; }
+.personaggio-card:nth-child(2) { animation-delay: 0.1s; }
+.personaggio-card:nth-child(3) { animation-delay: 0.15s; }
+.personaggio-card:nth-child(4) { animation-delay: 0.2s; }
+.personaggio-card:nth-child(5) { animation-delay: 0.25s; }
+.personaggio-card:nth-child(6) { animation-delay: 0.3s; }
+.personaggio-card:nth-child(7) { animation-delay: 0.35s; }
+.personaggio-card:nth-child(8) { animation-delay: 0.4s; }
+.personaggio-card:nth-child(9) { animation-delay: 0.45s; }
+.personaggio-card:nth-child(10) { animation-delay: 0.5s; }
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .personaggio-card::before {
@@ -278,9 +312,9 @@ h1,
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at center, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
     opacity: 0;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.4s ease;
     pointer-events: none;
     z-index: 3;
 }
@@ -290,12 +324,12 @@ h1,
 }
 
 .personaggio-card:hover {
-    transform: scale(1.12) translateY(-15px);
+    transform: scale(1.15) translateY(-20px);
 }
 
 .personaggio-nome {
     position: absolute;
-    bottom: 15px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     font-family: 'PixelFont';
@@ -304,59 +338,97 @@ h1,
     white-space: nowrap;
     text-shadow: 0.15vw 0.15vw 0 #000;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: all 0.3s ease;
     z-index: 4;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
     padding: 4px 8px;
-    border-radius: 3px;
+    border-radius: 4px;
+    letter-spacing: 1px;
 }
 
 .personaggio-card:hover .personaggio-nome {
     opacity: 1;
-    animation: typewriter 1.5s steps(30, end) forwards;
+    transform: translateX(-50%) translateY(-8px);
 }
 
 .personaggio-nome.maschio {
     color: #87ceeb;
-    text-shadow: 0.15vw 0.15vw 0 #000, 0 0 10px rgba(135, 206, 235, 0.5);
+    text-shadow: 0.15vw 0.15vw 0 #000, 0 0 10px rgba(135, 206, 235, 0.6);
 }
 
 .personaggio-nome.femmina {
     color: #ffb6c1;
-    text-shadow: 0.15vw 0.15vw 0 #000, 0 0 10px rgba(255, 182, 193, 0.5);
-}
-
-@keyframes typewriter {
-    0% {
-        width: 0;
-        opacity: 1;
-    }
-    100% {
-        width: 100%;
-        opacity: 1;
-    }
+    text-shadow: 0.15vw 0.15vw 0 #000, 0 0 10px rgba(255, 182, 193, 0.6);
 }
 
 .personaggio-card img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
-    filter: grayscale(100%) brightness(0.25) contrast(0.85) saturate(0);
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+    filter: grayscale(100%) brightness(0.3) contrast(0.8) saturate(0);
     position: relative;
     z-index: 2;
 }
 
 .personaggio-card:hover img {
-    filter: grayscale(0%) brightness(1.3) contrast(1.2) saturate(1.1) drop-shadow(0 0 50px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 100px rgba(255, 255, 255, 0.6)) drop-shadow(0 10px 30px rgba(255, 255, 255, 0.3));
-    animation: pulse-glow 1.5s ease-in-out infinite;
+    filter: grayscale(0%) brightness(1.35) contrast(1.25) saturate(1.15)
+        drop-shadow(0 0 40px rgba(255, 255, 255, 0.9))
+        drop-shadow(0 0 80px rgba(255, 255, 255, 0.5));
+    animation: pulse-glow-smooth 1.3s ease-in-out infinite;
 }
 
-@keyframes pulse-glow {
+@keyframes pulse-glow-smooth {
     0%, 100% {
-        filter: grayscale(0%) brightness(1.3) contrast(1.2) saturate(1.1) drop-shadow(0 0 50px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 100px rgba(255, 255, 255, 0.6)) drop-shadow(0 10px 30px rgba(255, 255, 255, 0.3));
+        filter: grayscale(0%) brightness(1.35) contrast(1.25) saturate(1.15)
+            drop-shadow(0 0 40px rgba(255, 255, 255, 0.9))
+            drop-shadow(0 0 80px rgba(255, 255, 255, 0.5));
     }
     50% {
-        filter: grayscale(0%) brightness(1.25) contrast(1.15) saturate(1.05) drop-shadow(0 0 70px rgba(255, 255, 255, 1)) drop-shadow(0 0 120px rgba(255, 255, 255, 0.7)) drop-shadow(0 10px 40px rgba(255, 255, 255, 0.4));
+        filter: grayscale(0%) brightness(1.4) contrast(1.3) saturate(1.2)
+            drop-shadow(0 0 60px rgba(255, 255, 255, 1))
+            drop-shadow(0 0 100px rgba(255, 255, 255, 0.6));
     }
+}
+
+/* --- ANIMAZIONI TRANSIZIONE DAI 4 LATI --- */
+@keyframes slideDownFromTop {
+    0% { height: 0; }
+    100% { height: 50%; }
+}
+
+@keyframes slideUpFromBottom {
+    0% { height: 0; }
+    100% { height: 50%; }
+}
+
+@keyframes slideRightFromLeft {
+    0% { width: 0; }
+    100% { width: 50%; }
+}
+
+@keyframes slideLeftFromRight {
+    0% { width: 0; }
+    100% { width: 50%; }
+}
+
+/* --- ANIMAZIONI TRANSIZIONE DI APERTURA --- */
+@keyframes slideUpToTop {
+    0% { height: 50%; }
+    100% { height: 0; }
+}
+
+@keyframes slideDownToBottom {
+    0% { height: 50%; }
+    100% { height: 0; }
+}
+
+@keyframes slideLeftToLeft {
+    0% { width: 50%; }
+    100% { width: 0; }
+}
+
+@keyframes slideRightToRight {
+    0% { width: 50%; }
+    100% { width: 0; }
 }

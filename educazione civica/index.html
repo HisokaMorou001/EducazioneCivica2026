@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>STOP THE BULLY</title>
-    <link rel="stylesheet" href="style.css"> <!-- il tuo CSS separato -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="menu-page">
     <div class="background"></div>
@@ -12,9 +12,19 @@
 
 <div class="menu">
     <h1>STOP THE BULLY</h1>
-    <a href="intro-scenes.html" class="button">START</a>
+    <a href="#" id="btn-start" class="button">START</a>
     <a href="tutorial.html" class="button">TUTORIAL</a>
     <a href="credits.html" class="button">CREDITS</a>
 </div>
+
+<script src="JS/transizione.js"></script>
+<script>
+    document.getElementById('btn-start').addEventListener('click', (e) => {
+        e.preventDefault();
+        mostraTransizione(() => {
+            window.location.href = "intro-scenes.html";
+        });
+    });
+</script>
 </body>
 </html>
